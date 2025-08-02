@@ -8,7 +8,7 @@ function jesusSay {
     )
 
     $mensaje = Get-Random $versiculos
- 
+
     $cruz = @'
      ┌────┐
      │    │
@@ -29,7 +29,6 @@ function jesusSay {
         Write-Host "`n$mensaje`n" -ForegroundColor Cyan
         Write-Host "$cruz" -ForegroundColor White
     } else {
-        # Linux/macOS - soporta ANSI colors
         Write-Host "`e[36m`n$mensaje`n`e[0m"
         Write-Host "`e[37m$cruz`e[0m"
     }

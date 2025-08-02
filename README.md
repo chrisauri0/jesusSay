@@ -44,14 +44,14 @@ This guide will help you install and use the `jesusSay` PowerShell function on *
 
 ## 🛠️ Option 1: Quick Manual Setup
 
-### 1. Download the script
-
-Download the `jesusSay.ps1` file from the [GitHub repo](https://github.com/YOUR-USERNAME/jesusSay) and place it somewhere accessible (e.g., your Documents folder).
-
-### 2. Import the function in PowerShell
-
-Open PowerShell and run:
+### 1. Clone the repo
 
 ```powershell
-. "$HOME/Documents/jesusSay.ps1"
+git clone https://github.com/chrisauri0/jesusSay.git
+```
+
+### 2. Run the install script
+
+```powershell
+pwsh .\jesusSay\setup.ps1
 ```
